@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(220, 234, 255);
+    height: 100vh;
+}
+section {
+    display: inline-flex;
+    width: 100%;
+}
+
+.login-form {
+    height: 60vh;
+    width: 45vh;
+    margin-top: 30vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.login-form h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3vh;
+    font-size: 5vh;
+}
+.login-form input {
+    display: block;
+    font-size: 2.2vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vh;
+    border-radius: 20px;
+    padding: 5px;
+    border-width: 1px;
+
+}
+.login-form textarea {
+    margin-top: 1.5vh;
+    text-align: center;
+    font-size: 2vh;
+    border-radius: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    color: blue;
+    width: 8vh;
+    height: 3.5vh;
+    margin-top: 1vh;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2vh;
+}
+button:hover, button:active {
+    filter: brightness(1.2);
+}
+hr {
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 0.1vh;
+    border: none;
+    background-image: linear-gradient(90deg, white, black, white);
+}
+
+/* Dropdown Menu Styles and layout */
+
+.dropdown-menu {
+    background-color: aliceblue;
+    width: 45vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30vh;
+    border-radius: 45px;
+    min-height: 45vh;
+}
+.dropdown-menu li {
+    padding: 3vh;
+    list-style: square;
+}
+li h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5vh;
+    line-height: 1.5;
+    text-align: center;
+}
+li p {
+    font-family: monospace;
+    font-size: 1.9vh;
+    text-align: center;
+
+}
